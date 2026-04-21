@@ -1,0 +1,52 @@
+/* 
+   LU CAKE - BIẾN CƠ SỞ & STYLE CƠ BẢN
+   Bảng màu, font chữ, khoảng cách, bóng đổ, bo góc
+*/
+
+:root {
+    --primary: #C2185B;
+    --primary-light: #E91E63;
+    --primary-dark: #880E4F;
+    --secondary: #FF8F00;
+    --secondary-light: #FFB300;
+    --accent: #4E342E;
+    --cream: #FFF8E1;
+    --cream-dark: #FFECB3;
+    --bg-light: #FFFDF7;
+    --bg-dark: #2C1810;
+    --text-dark: #3E2723;
+    --text-muted: #795548;
+    --text-light: #A1887F;
+    --white: #FFFFFF;
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+    --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+    --shadow-lg: 0 8px 32px rgba(0,0,0,0.16);
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 20px;
+    --radius-xl: 28px;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    transition: var(--transition);
+}

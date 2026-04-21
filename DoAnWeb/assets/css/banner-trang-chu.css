@@ -1,0 +1,111 @@
+/* 
+   LU CAKE - BANNER TRANG CHỦ & TIÊU ĐỀ CÁC PHẦN
+*/
+
+/* BANNER TRANG CHỦ */
+.hero-section {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -30%;
+    width: 80%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+    animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.hero-section .hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.hero-section .hero-subtitle {
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.9);
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.hero-section .btn-hero {
+    background: var(--white);
+    color: var(--primary);
+    border: none;
+    padding: 14px 36px;
+    border-radius: var(--radius-xl);
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: var(--transition);
+    box-shadow: var(--shadow-md);
+}
+
+.hero-section .btn-hero:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: var(--shadow-lg);
+    background: var(--cream);
+}
+
+.hero-decoration {
+    position: relative;
+    text-align: center;
+}
+
+.hero-decoration .hero-emoji {
+    font-size: 10rem;
+    filter: drop-shadow(0 10px 30px rgba(0,0,0,0.3));
+    animation: heroFloat 4s ease-in-out infinite;
+}
+
+@keyframes heroFloat {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    25% { transform: translateY(-15px) rotate(3deg); }
+    75% { transform: translateY(-8px) rotate(-3deg); }
+}
+
+/* TIÊU ĐỀ CÁC PHẦN */
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 2.2rem;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.section-title h2::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    margin: 12px auto 0;
+    border-radius: 2px;
+}
+
+.section-title p {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    max-width: 500px;
+    margin: 0 auto;
+}

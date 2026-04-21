@@ -1,0 +1,96 @@
+/* 
+   LU CAKE - CHÂN TRANG WEB (FOOTER)
+*/
+
+.footer-section {
+    background: var(--bg-dark);
+    color: rgba(255,255,255,0.8);
+    padding: 60px 0 20px;
+    margin-top: 60px;
+}
+
+.footer-brand h4 {
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+.footer-brand p {
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.1);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    transition: var(--transition);
+}
+
+.social-links a:hover {
+    background: var(--primary);
+    transform: translateY(-3px);
+}
+
+.footer-section h5 {
+    color: var(--white);
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: var(--primary-light);
+    padding-left: 5px;
+}
+
+.footer-contact {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact li {
+    margin-bottom: 12px;
+    font-size: 0.9rem;
+}
+
+.footer-contact i {
+    color: var(--primary-light);
+    margin-right: 8px;
+}
+
+.footer-divider {
+    border-color: rgba(255,255,255,0.1);
+    margin: 30px 0 15px;
+}
+
+.footer-copyright {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.5);
+    margin: 0;
+}
