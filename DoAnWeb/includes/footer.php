@@ -7,7 +7,7 @@
             <div class="col-lg-4 col-md-6">
                 <div class="footer-brand">
                     <h4><i class="bi bi-cake2-fill me-2"></i>Lu Cake</h4>
-                    <p>Tiệm bánh ngọt cao cấp với hơn 10 năm kinh nghiệm. Chúng tôi mang đến những chiếc bánh ngon nhất,
+                    <p>Tiệm bánh ngọt cao cấp. Chúng tôi mang đến những chiếc bánh ngon nhất,
                         được làm từ nguyên liệu tươi ngon và tình yêu dành cho nghệ thuật làm bánh.</p>
                     <div class="social-links">
                         <a href="#"><i class="bi bi-facebook"></i></a>
@@ -40,7 +40,8 @@
                 <ul class="footer-contact">
                     <li><i class="bi bi-geo-alt-fill"></i> Long Xuyên, An Giang</li>
                     <li><i class="bi bi-telephone-fill"></i> 0382 150 012</li>
-                    <li><i class="bi bi-envelope-fill"></i> contact@lucake.vn</li>
+                    <li><i class="bi bi-envelope-fill"></i> nhan@lucake.vn</li>
+                    <li><i class="bi bi-envelope-fill"></i> kiet@lucake.vn</li>
                     <li><i class="bi bi-clock-fill"></i> 7:00 - 21:00 hàng ngày</li>
                 </ul>
             </div>
