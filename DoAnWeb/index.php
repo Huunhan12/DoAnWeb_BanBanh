@@ -45,7 +45,7 @@ $iconDanhMuc = array('🍪', '🧁', '🎂', '🍞', '🥐');
             </div>
             <div class="col-lg-6 d-none d-lg-block">
                 <div class="hero-decoration">
-                    <span class="hero-emoji">🎂</span>
+                    <span class="hero-emoji" style="color: white;">°❀⋆.ೃ࿔*:･</span>
                 </div>
             </div>
         </div>
