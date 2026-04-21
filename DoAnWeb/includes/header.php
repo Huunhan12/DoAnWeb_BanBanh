@@ -42,7 +42,7 @@ if ($ketQuaDanhMuc) {
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <span><i class="bi bi-telephone-fill me-1"></i> 0382 150 012</span>
-                    <span class="ms-3"><i class="bi bi-envelope-fill me-1"></i> contact@lucake.vn</span>
+                    <span class="ms-3"><i class="bi bi-envelope-fill me-1"></i> banhngon@lucake.vn</span>
                 </div>
                 <div class="col-md-6 text-end">
                     <?php if (daHienDangNhap()): ?>
